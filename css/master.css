@@ -1,0 +1,219 @@
+/*SCROLLBAR SETTINGS------------------------------------------------------------------*/
+html{
+    scroll-behavior: smooth;
+}
+#mecontright div::-webkit-scrollbar, #skillscontright div::-webkit-scrollbar{
+    width: 10px;
+}
+#mecontright div::-webkit-scrollbar-track, #skillscontright div::-webkit-scrollbar-track{
+    background: #ffffff33;
+}
+#mecontright div::-webkit-scrollbar-thumb, #skillscontright div::-webkit-scrollbar-thumb{
+    background: #ffffff99;
+}
+html::-webkit-scrollbar{
+    width: 10px;
+}
+html::-webkit-scrollbar-track{
+    background: #22222266;
+}
+html::-webkit-scrollbar-thumb{
+    background: #222222ff;
+}
+/*BODY SETTINGS ---------------------------------------------------------------------*/
+body{
+    margin: 0;
+    background: #efefef;
+}
+a{
+    text-decoration: none;
+}
+/*NAVBAR SETTINGS-----------------------------------------------------------------------*/
+nav{
+    position: fixed;
+    height: 30px;
+    padding: 10px 0 10px 2.5%;
+    display: flex;
+    z-index: 10;
+}
+.navbutton{
+    position: relative;
+    width: 110px;
+    height: 40px;
+    margin: 0 2px 0 0;
+    border-radius: 10px;
+    text-align: center;
+    transition: width .2s, background .2s;
+    transition-timing-function: ease-out;
+    background: #222222;
+    color: #efefef;
+    font-family: monospace;
+    font-size: 24px;
+    text-decoration: none;
+    line-height: 40px;
+}
+#btnhome:hover{
+    width: 150px;
+    background: #88aaffff;
+}
+#btnme:hover{
+    width: 150px;
+    background: #eebb77ff;
+}
+#btnskills:hover{
+    width: 150px;
+    background: #44aa66ff;
+}
+/*HOMESCREEN SETTINGS-------------------------------------------------------*/
+#title{
+    margin: 0;
+    padding: 80px 0 0 0;
+    font-family: tahoma;
+    font-size: 60px;
+    text-align: center;
+    color: #222222;
+}
+.cardcont{
+    height: 600px;
+    padding: 70px 0 0 0;
+    display: flex;
+}
+.card{
+    background: #222222;
+    transition: background 0.2s, height 0.2s;
+    height: 400px;
+    width: 30%;
+    margin-left: 2.5%;
+    border-radius: 50px;
+    overflow: hidden;
+}
+#cardme:hover{
+    background: #eebb77ff;
+    height: 600px;
+}
+#cardskills:hover{
+    background: #44aa66ff;
+    height: 600px;
+}
+#cardcontact:hover{
+    background: #aa88ffff;
+    height: 600px;
+}
+.card:hover img{
+    opacity: 1;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity .2s;
+    margin: 0;
+}
+.card h2{
+    margin: 0 0 0 20px;
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 40px;
+    transition: padding .2s;
+}
+.card p{
+    margin: 0 20px 0 20px;
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 22px;
+}
+.card a{
+    color: #efefef;
+    font-weight: bold;
+}
+/*DIVISOR ----------------------------------*/
+.divisor{
+    height: 100px;
+    width: 100%;
+}
+/*MESCREEN SETTINGS---------------------------------------------------------------*/
+.mecont{
+    margin: 0 2.5% 0 2.5%;
+    display: flex;
+    background: #666;
+    height: 1000px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#mecontleft h3{
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 60px;
+    margin: 15% 0 0 5%;
+}
+#mecontleft{
+    background: #eebb77ff;
+    width: 40%;
+}
+#mecontleft p{
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 20px;
+    margin: 0 0 0 5%;
+}
+#mecontright{
+    background: #eecc88ff;
+    width: 60%;
+}
+#mecontright div{
+    width: 70%;
+    height: 80%;
+    margin: 10% 0 0 15%;
+    overflow: auto;
+    font-size: 0;
+}
+#mecontright div img{
+    width: 100%;
+}
+#mecontright div img:hover{
+    margin-top: 0;
+}
+/*SKILLSSCREEN SETTINGS------------------------------------------------------------*/
+.skillscont{
+    margin: 0 2.5% 0 2.5%;
+    display: flex;
+    background: #666;
+    height: 1000px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#skillscontleft h3{
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 60px;
+    margin: 15% 0 0 5%;
+}
+#skillscontleft{
+    background: #44aa66ff;
+    width: 40%;
+}
+#skillscontleft p{
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 20px;
+    margin: 0 0 0 5%;
+}
+#skillscontright{
+    background: #55aa77ff;
+    width: 60%;
+}
+#skillscontright div{
+    width: 70%;
+    height: 80%;
+    margin: 10% 0 0 15%;
+    overflow: auto;
+    font-size: 0;
+}
+#skillscontright div img{
+    width: 100%;
+}
+#skillscontright div img:hover{
+    margin-top: 0;
+}
