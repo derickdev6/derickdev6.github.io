@@ -167,6 +167,7 @@ nav{
     margin: 10% 0 0 15%;
     overflow: auto;
     font-size: 0;
+    border-radius: 25px 0 0 25px;
 }
 #mecontright div img{
     width: 100%;
@@ -210,6 +211,7 @@ nav{
     margin: 10% 0 0 15%;
     overflow: auto;
     font-size: 0;
+    border-radius: 25px 0 0 25px;
 }
 #skillscontright div img{
     width: 100%;
