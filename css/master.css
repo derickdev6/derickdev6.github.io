@@ -3,7 +3,7 @@ html{
     scroll-behavior: smooth;
 }
 #mecontright div::-webkit-scrollbar, #skillscontright div::-webkit-scrollbar, #workcontright div::-webkit-scrollbar{
-    width: 10px;
+    width: 1vw;
 }
 #mecontright div::-webkit-scrollbar-track, #skillscontright div::-webkit-scrollbar-track, #workcontright div::-webkit-scrollbar-track{
     background: #ffffff33;
@@ -12,7 +12,7 @@ html{
     background: #ffffff99;
 }
 html::-webkit-scrollbar{
-    width: 10px;
+    width: 1vw;
 }
 html::-webkit-scrollbar-track{
     background: #22222266;
