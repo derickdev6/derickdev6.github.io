@@ -3,7 +3,7 @@ html{
     scroll-behavior: smooth;
 }
 #mecontright div::-webkit-scrollbar, #skillscontright div::-webkit-scrollbar, #workcontright div::-webkit-scrollbar{
-    width: 1vw;
+    width: 0.7vw;
 }
 #mecontright div::-webkit-scrollbar-track, #skillscontright div::-webkit-scrollbar-track, #workcontright div::-webkit-scrollbar-track{
     background: #ffffff33;
@@ -12,7 +12,7 @@ html{
     background: #ffffff99;
 }
 html::-webkit-scrollbar{
-    width: 1vw;
+    width: 0.7vw;
 }
 html::-webkit-scrollbar-track{
     background: #22222266;
@@ -113,7 +113,7 @@ nav{
     margin: 0;
 }
 .card h2{
-    margin: 0 0 0 1vw;
+    margin: 0 0 2vw 1vw;
     color: #efefef;
     font-family: tahoma;
     font-size: 3vw;
@@ -292,4 +292,21 @@ nav{
 }
 #workcontright div img:hover{
     margin-top: 0;
+}
+
+/*BottomBlock settings ------------------------------------------------------------*/
+#bottomblock {
+    padding: 4vw 4vw 4vw 4vw;
+    background: #222222;
+    height: 16vw;
+}
+#bottomblock ul li{
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 1vw;
+    list-style: none;
+}
+#bottomblock ul li a{
+    color: #efefef;
+    font-weight: bold;
 }
