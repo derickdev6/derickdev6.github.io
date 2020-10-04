@@ -98,7 +98,7 @@ nav{
     background: #44aa66ff;
     height: 35vw;
 }
-#cardcontact:hover{
+#cardwork:hover{
     background: #aa88ffff;
     height: 35vw;
 }
@@ -138,9 +138,8 @@ nav{
 .mecont{
     margin: 0 2.5% 0 2.5%;
     display: flex;
-    background: #666;
     height: 35vw;
-    border-radius: 5vw;
+    border-radius: 3vw;
     overflow: hidden;
 }
 
@@ -148,7 +147,7 @@ nav{
     color: #efefef;
     font-family: tahoma;
     font-size: 4.5vw;
-    margin: 15% 0 0 5%;
+    margin: 5% 0 0 5%;
 }
 #mecontleft{
     background: #eebb77ff;
@@ -187,9 +186,8 @@ nav{
 .skillscont{
     margin: 0 2.5% 0 2.5%;
     display: flex;
-    background: #666;
     height: 35vw;
-    border-radius: 5vw;
+    border-radius: 3vw;
     overflow: hidden;
 }
 
@@ -197,7 +195,7 @@ nav{
     color: #efefef;
     font-family: tahoma;
     font-size: 4.5vw;
-    margin: 15% 0 0 5%;
+    margin: 5% 0 0 5%;
 }
 #skillscontleft{
     background: #44aa66ff;
@@ -242,9 +240,8 @@ nav{
 .workcont{
     margin: 0 2.5% 0 2.5%;
     display: flex;
-    background: #666;
     height: 35vw;
-    border-radius: 5vw;
+    border-radius: 3vw;
     overflow: hidden;
 }
 
@@ -252,7 +249,7 @@ nav{
     color: #efefef;
     font-family: tahoma;
     font-size: 4.5vw;
-    margin: 15% 0 0 5%;
+    margin: 5% 0 0 5%;
 }
 #workcontleft{
     background: #dd7777;
