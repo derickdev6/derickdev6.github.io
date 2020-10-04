@@ -307,3 +307,39 @@ nav{
     color: #efefef;
     font-weight: bold;
 }
+
+/*Varialbles ---------------------------------------------------------------------*/
+@media only screen and (orientation: portrait){
+  .navbutton{
+      width: 18vw;
+      height: 4vw;
+      margin: 0 1vw 0 0;
+      border-radius: 0.5vw;
+      text-align: center;
+      transition: width .2s, background .2s;
+      transition-timing-function: ease-out;
+      background: #222222;
+      color: #efefef;
+      font-family: monospace;
+      font-size: 2vw;
+      text-decoration: none;
+      line-height: 3.8vw;
+  }
+  #btnhome:hover{
+      width: 26vw;
+  }
+  #btnme:hover{
+      width: 26vw;
+  }
+  #btnwork:hover{
+      width: 26vw;
+  }
+  #btnskills:hover{
+      width: 26vw;
+  }
+  #title{
+      padding: 6vw 0 4vw 0;
+  }
+
+
+}
