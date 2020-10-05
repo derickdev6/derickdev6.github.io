@@ -31,7 +31,7 @@ a{
 /*NAVBAR SETTINGS-----------------------------------------------------------------------*/
 nav{
     position: fixed;
-    height: 3vw;
+    height: 2vw;
     padding: 1vw 0 1vw 2.5%;
     display: flex;
     z-index: 10;
@@ -68,16 +68,47 @@ nav{
     width: 10vw;
     background: #44aa66ff;
 }
+#downarrow{
+  position: fixed;
+  background: #222222;
+  height: 3vw;
+  width: 3vw;
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+  margin: 0 2vw 2vw 0;
+  z-index: 10;
+  opacity: .6;
+  transition: .2s;
+  text-align: center;
+}
+#downarrow a{
+  margin: 0;
+  color: #efefef;
+  font-size: 2.5vw;
+  line-height: 3vw;
+  font-weight: bolder;
+}
+#downarrow:hover{
+  opacity: 1;
+
+}
 /*HOMESCREEN SETTINGS-------------------------------------------------------*/
 #title{
     margin: 0;
-    padding: 4vw 0 4vw 0;
-    font-family: tahoma;
-    font-size: 5vw;
+    padding: 4vw 0 0 0;
     text-align: center;
-    color: #222222;
+    color: #efefef;
+    background: #88aaffff;
+}
+#title h1{
+  font-family: tahoma;
+  font-size: 5vw;
+  margin: 0;
+  padding: 0;
 }
 .cardcont{
+  padding: 4vw 0 0 0;
     height: 30vw;
     display: flex;
 }
@@ -339,5 +370,13 @@ nav{
   }
   #title{
       padding: 6vw 0 4vw 0;
+  }
+  #downarrow{
+    height: 7vw;
+    width: 7vw;
+  }
+  #downarrow a{
+    font-size: 6vw;
+    line-height: 7vw;
   }
 }
