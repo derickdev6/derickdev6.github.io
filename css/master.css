@@ -248,24 +248,28 @@ nav{
     position: relative;
     background: #55aa77;
     width: 60%;
-    text-align: center;
 }
 #skillscontright div{
     position: absolute;
     display: inline-block;
-    width: 70%;
-    height: 60%;
-    top: 20%;
-    left: 15%;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
     overflow: auto;
     font-size: 0;
-    border-radius: 2.5vw 0 0 2.5vw;
 }
 #skillscontright div img{
-    width: 100%;
+    width: 18%;
+    opacity: .7;
+    margin: 1%;
+    border-radius: 1vw;
+    transition: .2s;
 }
 #skillscontright div img:hover{
-    margin-top: 0;
+  opacity: 1;
+  width: 20%;
+  margin: 0;
 }
 /*WORKSCREEN SETTINGS--------------------------------------------------------------------------*/
 .workcont{
@@ -378,6 +382,6 @@ nav{
   #downarrow a{
     font-size: 6vw;
     line-height: 7vw;
-    
+
   }
 }
