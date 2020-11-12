@@ -1,0 +1,387 @@
+/*SCROLLBAR SETTINGS------------------------------------------------------------------*/
+html{
+    scroll-behavior: smooth;
+}
+#mecontright div::-webkit-scrollbar, #skillscontright div::-webkit-scrollbar, #workcontright div::-webkit-scrollbar{
+    width: 0.7vw;
+}
+#mecontright div::-webkit-scrollbar-track, #skillscontright div::-webkit-scrollbar-track, #workcontright div::-webkit-scrollbar-track{
+    background: #ffffff33;
+}
+#mecontright div::-webkit-scrollbar-thumb, #skillscontright div::-webkit-scrollbar-thumb, #workcontright div::-webkit-scrollbar-thumb{
+    background: #ffffff99;
+}
+html::-webkit-scrollbar{
+    width: 0.7vw;
+}
+html::-webkit-scrollbar-track{
+    background: #22222266;
+}
+html::-webkit-scrollbar-thumb{
+    background: #222222ff;
+}
+/*BODY SETTINGS ---------------------------------------------------------------------*/
+body{
+    margin: 0;
+    background: #efefef;
+}
+a{
+    text-decoration: none;
+}
+/*NAVBAR SETTINGS-----------------------------------------------------------------------*/
+nav{
+    position: fixed;
+    height: 2vw;
+    padding: 1vw 0 1vw 2.5%;
+    display: flex;
+    z-index: 10;
+}
+.navbutton{
+    position: relative;
+    width: 7vw;
+    height: 2vw;
+    margin: 0 0.2vw 0 0;
+    border-radius: 0.5vw;
+    text-align: center;
+    transition: width .2s, background .2s;
+    transition-timing-function: ease-out;
+    background: #222222;
+    color: #efefef;
+    font-family: monospace;
+    font-size: 1.2vw;
+    text-decoration: none;
+    line-height: 2vw;
+}
+#btnhome:hover{
+    width: 10vw;
+    background: #88aaffff;
+}
+#btnme:hover{
+    width: 10vw;
+    background: #eebb77ff;
+}
+#btnwork:hover{
+    width: 10vw;
+    background: #dd7777;
+}
+#btnskills:hover{
+    width: 10vw;
+    background: #44aa66ff;
+}
+#downarrow{
+  position: fixed;
+  background: #222222;
+  height: 3vw;
+  width: 3vw;
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+  margin: 0 2vw 2vw 0;
+  z-index: 10;
+  opacity: .6;
+  transition: .2s;
+  text-align: center;
+}
+#downarrow a{
+  margin: 0;
+  color: #efefef;
+  font-size: 2.5vw;
+  line-height: 3vw;
+  font-weight: bolder;
+}
+#downarrow:hover{
+  opacity: 1;
+
+}
+/*HOMESCREEN SETTINGS-------------------------------------------------------*/
+#title{
+    margin: 0;
+    padding: 4vw 0 0 0;
+    text-align: center;
+    color: #efefef;
+    background: #88aaffff;
+}
+#title h1{
+  font-family: tahoma;
+  font-size: 5vw;
+  margin: 0;
+  padding: 0;
+}
+.cardcont{
+  padding: 4vw 0 0 0;
+    height: 30vw;
+    display: flex;
+}
+.card{
+    background: #222222;
+    transition: background 0.2s, height 0.2s;
+    height: 25vw;
+    width: 30%;
+    margin-left: 2.5%;
+    border-radius: 3vw;
+    overflow: hidden;
+}
+#cardme:hover{
+    background: #eebb77ff;
+    height: 35vw;
+}
+#cardskills:hover{
+    background: #44aa66ff;
+    height: 35vw;
+}
+#cardwork:hover{
+    background: #aa88ffff;
+    height: 35vw;
+}
+.card:hover img{
+    opacity: 1;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity .2s;
+    margin: 0;
+}
+.card h2{
+    margin: 0 0 2vw 1vw;
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 3vw;
+    transition: padding .2s;
+}
+.card p{
+    margin: 0 1vw 0 1vw;
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 1vw;
+}
+.card a{
+    color: #efefef;
+    font-weight: bold;
+}
+/*DIVISOR ----------------------------------*/
+.divisor{
+    height: 8vw;
+    width: 100%;
+}
+/*MESCREEN SETTINGS---------------------------------------------------------------*/
+.mecont{
+    margin: 0 2.5% 0 2.5%;
+    display: flex;
+    height: 35vw;
+    border-radius: 3vw;
+    overflow: hidden;
+}
+
+#mecontleft h3{
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 4.5vw;
+    margin: 5% 0 0 5%;
+}
+#mecontleft{
+    background: #eebb77ff;
+    width: 40%;
+}
+#mecontleft p{
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 1.2vw;
+    margin: 0 5% 0 5%;
+}
+#mecontright{
+    position: relative;
+    background: #eecc88ff;
+    width: 60%;
+    text-align: center;
+}
+#mecontright div{
+    position: absolute;
+    display: inline-block;
+    width: 70%;
+    height: 60%;
+    top: 20%;
+    left: 15%;
+    overflow: auto;
+    font-size: 0;
+    border-radius: 2.5vw 0 0 2.5vw;
+}
+#mecontright div img{
+    width: 100%;
+}
+#mecontright div img:hover{
+    margin-top: 0;
+}
+/*SKILLSSCREEN SETTINGS------------------------------------------------------------*/
+.skillscont{
+    margin: 0 2.5% 0 2.5%;
+    display: flex;
+    height: 35vw;
+    border-radius: 3vw;
+    overflow: hidden;
+}
+
+#skillscontleft h3{
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 4.5vw;
+    margin: 5% 0 0 5%;
+}
+#skillscontleft{
+    background: #44aa66ff;
+    width: 40%;
+}
+#skillscontleft p{
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 1.2vw;
+    margin: 0 5% 0 5%;
+}
+#skillscontleft ul li{
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 1.2vw;
+    margin: 0 5% 0 5%;
+}
+#skillscontright{
+    position: relative;
+    background: #55aa77;
+    width: 60%;
+}
+#skillscontright div{
+    position: absolute;
+    display: inline-block;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+    overflow: auto;
+    font-size: 0;
+}
+#skillscontright div img{
+    width: 18%;
+    opacity: .7;
+    margin: 1%;
+    border-radius: 1vw;
+    transition: .2s;
+}
+#skillscontright div img:hover{
+  opacity: 1;
+  width: 20%;
+  margin: 0;
+}
+/*WORKSCREEN SETTINGS--------------------------------------------------------------------------*/
+.workcont{
+    margin: 0 2.5% 0 2.5%;
+    display: flex;
+    height: 35vw;
+    border-radius: 3vw;
+    overflow: hidden;
+}
+
+#workcontleft h3{
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 4.5vw;
+    margin: 5% 0 0 5%;
+}
+#workcontleft{
+    background: #dd7777;
+    width: 40%;
+}
+#workcontleft p{
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 1.2vw;
+    margin: 0 5% 0 5%;
+}
+#workcontleft ul li{
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 1.2vw;
+    margin: 0 5% 0 5%;
+}
+#workcontright{
+    position: relative;
+    background: #ee8888;
+    width: 60%;
+    text-align: center;
+}
+#workcontright div{
+    position: absolute;
+    display: inline-block;
+    width: 70%;
+    height: 60%;
+    top: 20%;
+    left: 15%;
+    overflow: auto;
+    font-size: 0;
+    border-radius: 2.5vw 0 0 2.5vw;
+}
+#workcontright div img{
+    width: 100%;
+}
+#workcontright div img:hover{
+    margin-top: 0;
+}
+
+/*BottomBlock settings ------------------------------------------------------------*/
+#bottomblock {
+    padding: 4vw 4vw 4vw 4vw;
+    background: #222222;
+    height: 16vw;
+}
+#bottomblock ul li{
+    color: #efefef;
+    font-family: tahoma;
+    font-size: 1vw;
+    list-style: none;
+}
+#bottomblock ul li a{
+    color: #efefef;
+    font-weight: bold;
+}
+
+/*Varialbles ---------------------------------------------------------------------*/
+@media only screen and (orientation: portrait){
+  .navbutton{
+      width: 18vw;
+      height: 4vw;
+      margin: 0 1vw 0 0;
+      border-radius: 0.5vw;
+      text-align: center;
+      transition: width .2s, background .2s;
+      transition-timing-function: ease-out;
+      background: #222222;
+      color: #efefef;
+      font-family: monospace;
+      font-size: 2vw;
+      text-decoration: none;
+      line-height: 3.8vw;
+  }
+  #btnhome:hover{
+      width: 26vw;
+  }
+  #btnme:hover{
+      width: 26vw;
+  }
+  #btnwork:hover{
+      width: 26vw;
+  }
+  #btnskills:hover{
+      width: 26vw;
+  }
+  #title{
+      padding: 6vw 0 4vw 0;
+  }
+  #downarrow{
+    height: 7vw;
+    width: 7vw;
+  }
+  #downarrow a{
+    font-size: 6vw;
+    line-height: 7vw;
+
+  }
+}
