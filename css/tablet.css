@@ -16,7 +16,7 @@ header nav .navbar-buttons a{
 }    
 
 main{
-    padding-top: 10rem;
+    padding-top: 6rem;
 }
 main .main-landing{
     height: calc(100vh - 6rem);
