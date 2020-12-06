@@ -100,7 +100,6 @@ main section{
 }
 .section-home .card {
     min-width: 25rem;
-    max-width: 35rem;
     height: 40rem;
     margin: 2.5rem 0;
     width: 25%;
@@ -118,7 +117,7 @@ main section{
     background-color: var(--myrtle-green);
 }
 .section-home .card .card-img-container{
-    height: 20rem;
+    height: 50%;
     width: 100%;
     border-radius: 3rem 3rem 0 0;
     overflow: hidden;
@@ -131,9 +130,9 @@ main section{
 }
 
 .section-home .card .card-txt-container{
-    height: 17rem;
+    height: 42.5%;
     width: 90%;
-    margin: 1.5rem 5%;
+    margin: 4.16% 5%;
     border-radius: 3rem;
 }
 .section-home .card .card-txt-container h3{
@@ -146,11 +145,30 @@ main section{
     color: var(--pale-white);
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1450px){
+    .section-home .card .card-img-container img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-width: 1600px){
     .section-home .card .card-txt-container h3{
-        font-size: 2.5rem;
+        font-size: 3em;
     }
     .section-home .card .card-txt-container p{
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+    .section-home .card{
+        height: 60rem;
+    }
+    .section-home .card .card-img-container img{
+        width: auto;
+        height: 100%;
+    }
+}
+@media (min-width: 2200px){
+    .section-home .card .card-img-container img{
+        width: 100%;
+        height: auto;
     }
 }
