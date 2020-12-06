@@ -1,0 +1,43 @@
+header nav{
+    height: 10rem;
+}
+
+header nav .navbar-title{
+    padding-top: 3rem;
+}
+header nav .navbar-title h1{
+    font-size: 3rem;
+}
+header nav .navbar-title h2{
+    font-size: 1rem;
+}
+header nav .navbar-buttons a{
+    padding: 0 1rem;
+}    
+
+main{
+    padding-top: 10rem;
+}
+main .main-landing{
+    height: calc(100vh - 10rem);
+}
+main .main-landing .landing-txt-container .title{
+    font-size: 10rem;
+}
+main .main-landing .landing-txt-container .subtitle{
+    font-size: 7rem;
+}
+main .main-gallery .gallery-title{
+    font-size: 7rem;
+}
+main .main-gallery .gallery-container .gallery-item{
+    height: 30rem;
+    border-radius: 1.5rem;
+}    
+main .main-gallery .gallery-container .gallery-item p{
+    font-size: 7rem;
+}
+main .main-gallery .gallery-container .gallery-item p{
+    width: 80%;
+    border-radius: 1.5rem;
+}

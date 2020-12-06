@@ -1,0 +1,19 @@
+main .main-landing .landing-txt-container .title{
+    font-size: 16rem;
+}
+main .main-landing .landing-txt-container .subtitle{
+    font-size: 10rem;
+}
+main .main-gallery .gallery-title{
+    font-size: 10rem;
+}
+main .main-gallery .gallery-container .gallery-item{
+    width: 45%;
+    height: 46rem;
+}
+main .main-gallery .gallery-container .gallery-item p{
+    font-size: 6rem;
+}
+main .main-gallery .gallery-container .gallery-item p{
+    width: 50%;
+}
