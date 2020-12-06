@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Derick Robinson</title>
-    <link rel="shortcut icon" href="img/laptopicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/icons/laptopicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/master.css">
 
     <!-- Fuentes -->
@@ -14,7 +14,7 @@
     <header>
         <nav>
             <figure>
-                <img src="img/laptopicon.png" alt="laptoplogo">
+                <img src="img/icons/laptopicon.svg" alt="laptoplogo">
             </figure>
 
             <h1>Derick Robinson</h1>
@@ -31,9 +31,10 @@
     <main>
         <section class="section-home">
             <div class="card card-me">
-                <figure class="card-img-container">
-                    <img src="img/banff.jpg" alt="banff">
-                </figure>
+                <picture class="card-img-container">
+                    <source media="(min-width:1000px)" srcset="img/home/banffmedium.jpg">
+                    <img src="img/home/banffsmall.jpg" alt="banff">
+                </picture>
 
                 <div class="card-txt-container">
                     <h3>Who I am</h3>
@@ -42,9 +43,10 @@
                 </div>
             </div>
             <div class="card card-skills">
-                <figure class="card-img-container">
-                    <img src="img/laptop.jpg" alt="laptop">
-                </figure>
+                <picture class="card-img-container">
+                        <source media="(min-width:1000px)" srcset="img/home/laptopmedium.jpg">
+                        <img src="img/home/laptopsmall.jpg" alt="laptop">
+                </picture>
                 <div class="card-txt-container">
                     <h3>What I do</h3>
                     <p>I am a student, I study Systems and Information Engineering in Universidad Pontificia Bolivariana, Medellin, Colombia. My focus is to become a programmer, backend developer or systems admin.
@@ -52,9 +54,10 @@
                 </div>
             </div>
             <div class="card card-work">
-                <figure class="card-img-container">
-                    <img src="img/programming.jpg" alt="programming">
-                </figure>
+                <picture class="card-img-container">
+                        <source media="(min-width:1000px)" srcset="img/home/programmingmedium.jpg">
+                        <img src="img/home/programmingsmall.jpg" alt="programming">
+                </picture>
                 <div class="card-txt-container">
                     <h3>My work</h3>
                     <p>I have no professional experience. Even though, I am working on personal projects.</p>

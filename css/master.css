@@ -19,13 +19,12 @@ html{
     --light-black: #2b2b2b;
 }
 
-/* ------------HEADER----------- */
-
 body{
-    font-size: 0;
     font-family: 'Monserrat', sans-serif;
     background-color: var(--pale-white);
 }
+
+/* ------------HEADER----------- */
 
 nav{
     position: fixed;
@@ -113,10 +112,10 @@ main section{
     background-color: var(--myrtle-green);
 }
 .section-home .card-skills:hover{
-    background-color: var(--spanish-viridian);
+    background-color: var(--myrtle-green);
 }
 .section-home .card-work:hover{
-    background-color: var(--sea-green);
+    background-color: var(--myrtle-green);
 }
 .section-home .card .card-img-container{
     height: 20rem;
@@ -129,10 +128,6 @@ main section{
 }
 .section-home .card .card-img-container img{
     height: 100%;
-}
-.section-home .card-work .card-img-container img{
-    width: 100%;
-    height: auto;
 }
 
 .section-home .card .card-txt-container{
