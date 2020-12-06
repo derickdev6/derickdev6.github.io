@@ -3,13 +3,13 @@ header nav{
 }
 
 header nav .navbar-title{
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 header nav .navbar-title h1{
     font-size: 3rem;
 }
 header nav .navbar-title h2{
-    font-size: 1rem;
+    font-size: 0rem;
 }
 header nav .navbar-buttons a{
     padding: 0 1rem;
