@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+@font-face{
+    font-family: 'Nanum Gothic';
+    src: url(../fonts/NanumGothic-Regular.ttf);
+}
+@font-face{
+    font-family: 'Nanum Gothic Bold';
+    src: url(../fonts/NanumGothic-Bold.ttf);
+}
+@font-face{
+    font-family: 'Nanum Gothic Extra Bold';
+    src: url(../fonts/NanumGothic-ExtraBold.ttf);
+}
+@font-face{
+    font-family: 'Julietta Messie';
+    src: url(../fonts/Julietta-Messie-Demo.ttf);
+}
+
+:root{
+/* COLORS */
+    --maximum-blue-green: #02BDC9;
+    --mountain-meadow: #25C09A;
+    --emerald: #48C36B;
+    --kelly-green: #6BC63C;
+    --yellow-green: #8DC90C;
+    --light-yellow-green: #97CE22;
+    --eerie-black: #282828;
+    --dim-gray: #6e6e6e;
+    --silver-chalice: #b4b4b4;
+    --dark-white: #e6e6e6;
+/* FONTS */
+    --main-font: 'Nanum Gothic';
+    --main-font-bold: 'Nanum Gothic Bold';
+    --main-font-extrabold: 'Nanum Gothic Extra Bold';
+    --script-font: 'Julietta Messie';
+}
+
+/* ---------- HEADER ---------- */
+
+header nav{
+    height: 5rem;
+    width: 100%;
+    background-color: var(--maximum-blue-green);
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+}
+
+header nav .navbar-logo-container{
+    height: 100%;
+    width: auto;
+}
+header nav .navbar-logo-container img{
+    height: 80%;
+    margin: 10%;
+}
+
+header nav .navbar-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    font-family: var(--script-font);
+    color: var(--dark-white);
+}
+header nav .navbar-title h1{
+    font-size: 0rem;
+}
+header nav .navbar-title h2{
+    font-size: 0rem;
+}
+
+header nav .navbar-buttons{
+    list-style: none;
+    display: flex;
+}
+header nav .navbar-buttons a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 .5rem;
+    font-family: var(--main-font-bold);
+    color: var(--dark-white);
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: .1s;
+}
+header nav .navbar-buttons a:hover{
+    background-color: var(--yellow-green);
+}
+
+/* ---------- MAIN ---------- */
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    width: 100%;
+}
+
+main .main-landing{
+    width: 100%;
+    height: calc(100vh - 5rem);
+    background-image: url(../img/backgrounds/landingbg-large.jpg), linear-gradient(180deg, rgba(2,189,201,1) 0%, rgba(141,201,12,1) 100%);
+    background-size: cover;
+    background-position: center;
+}
+main .main-landing .landing-txt-container{
+    height: 40%;
+    width: 80%;
+    margin: 28vh auto;
+    text-align: center;
+    font-family: var(--script-font);
+    color: var(--dark-white);
+}
+main .main-landing .landing-txt-container .title{
+    font-size: 6rem;
+}
+main .main-landing .landing-txt-container .subtitle{
+    font-size: 4rem;
+}
+
+main .main-gallery{
+    width: 100%;
+    background-color: var(--eerie-black);
+}
+
+main .main-gallery .gallery-title{
+    text-align: center;
+    padding-top: 2rem;
+    font-family: var(--script-font);
+    color: var(--dark-white);
+    font-size: 4rem;
+}
+
+main .main-gallery .gallery-container{
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+main .main-gallery .gallery-container .gallery-item{
+    width: 80%;
+    height: 18rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main .main-gallery .gallery-container .gallery-item p{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 0rem;
+    font-family: var(--script-font);
+    font-size: 3rem;
+    color: var(--eerie-black);
+    padding: 1rem;
+    background-color: #ffffff66;
+    transition: .1s;
+}
+
+main .main-gallery .gallery-container .gallery-item p:hover{
+    background-color: #ffffffaa;
+}
+
+
+/* GALLERY IMAGES */
+main .main-gallery .gallery-container .item1{
+    background-image: url(../img/gallery/crab.jpg);
+}
+main .main-gallery .gallery-container .item2{
+    background-image: url(../img/gallery/beachsunshine.jpg);
+}
+main .main-gallery .gallery-container .item3{
+    background-image: url(../img/gallery/beachsunset.jpg);
+}
+main .main-gallery .gallery-container .item4{
+    background-image: url(../img/gallery/dronesea.JPG);
+}
+main .main-gallery .gallery-container .item5{
+    background-image: url(../img/gallery/turtle.JPG);
+}
+main .main-gallery .gallery-container .item6{
+    background-image: url(../img/gallery/ilovesai.JPG);
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    height: 20rem;
+    width: 100%;
+    background-color: var(--eerie-black);
+    border-top: var(--dim-gray) solid .2rem;
+}
