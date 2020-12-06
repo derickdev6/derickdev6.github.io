@@ -1,5 +1,5 @@
 header nav{
-    height: 10rem;
+    height: 6rem;
 }
 
 header nav .navbar-title{
@@ -19,7 +19,7 @@ main{
     padding-top: 10rem;
 }
 main .main-landing{
-    height: calc(100vh - 10rem);
+    height: calc(100vh - 6rem);
 }
 main .main-landing .landing-txt-container .title{
     font-size: 10rem;
