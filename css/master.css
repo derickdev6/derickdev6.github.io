@@ -25,8 +25,9 @@ body{
 /* HEADER */
 header{
     height: 80vh;
+    padding: 0 10%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-image: url('https://images.pexels.com/photos/1685543/pexels-photo-1685543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-position: center;
@@ -38,6 +39,7 @@ header h1{
     color: white;
     font-family: 'Roboto', sans-serif;
     line-height: .5;
+    transition: .5s;
 }
 header h1 span{
     font-size: 6rem;
