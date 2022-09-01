@@ -20,6 +20,7 @@ public class Punto2 {
                 System.out.print(jug1[j] + "  c ");
             }
         }
+        scanner.close();
         System.out.println("\nFin");
     }
 
