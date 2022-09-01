@@ -30,6 +30,7 @@ public class Punto3 {
                 System.out.print("Promedio =" + prom + "\n");
             }
             System.out.println("Promedio mas alto de " + estudianteMax + " con promedio de " + maxProm);
+            scan.close();
 
         } catch (FileNotFoundException e) {
             System.out.println("File not found: " + e.getMessage());
