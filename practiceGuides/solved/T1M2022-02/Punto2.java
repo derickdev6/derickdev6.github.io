@@ -17,7 +17,7 @@ public class Punto2 {
             System.out.print("\nJugador " + i + ": ");
 
             for (int j = 0; j < numDados; j++) {
-                System.out.print(jug1[j] + "  c ");
+                System.out.print(jug1[j] + "   ");
             }
         }
         scanner.close();
