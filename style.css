@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster+Two:ital@0;1&family=Roboto+Condensed:wght@300&display=swap');
+body{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 45rem;
+    width: 100vw;
+    max-width: 100rem;
+    background-image: linear-gradient(to right,
+    rgba(255, 255, 255, 1) 40%,
+    rgba(255, 255, 255, 0.5) 45%,
+    rgba(0, 0, 0, 0) 70%
+    ),
+    url('https://cdn-0.motocrossactionmag.com/wp-content/uploads/2019/05/1968_DT-1_highres.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    line-height: 2.5rem;
+}
+
+header h1{
+    margin: 0 0 0 10vw;
+    font-size: 6rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+header h1 span{
+    font-family: 'Lobster Two', sans-serif;
+    font-style: italic;
+    font-size: 2.2rem;
+}
+
+.timeline{
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 100rem;
+}
+
+.timeline section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.timeline section .linea{
+    display: flex;
+}
+
+.timeline section .linea-punteada{
+    height: 30rem;
+    width: 0;
+    border-right: 2px dashed rgb(86, 86, 86);
+}
+
+.timeline section .imagen-etapa{
+    position: relative;
+    top: 7rem;
+    left: 10rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+
+.timeline section .ie1{
+    background-image: url(https://www.bikebound.com/wp-content/uploads/2020/07/Yamaha-DT1-2.jpg);
+}
+.timeline section .ie2{
+    background-image: url(https://i.pinimg.com/originals/e6/0b/f3/e60bf32bf58afe478902326252bdc2b2.jpg);
+}
+.timeline section .ie3{
+    background-image: url(https://i.pinimg.com/originals/16/50/bb/1650bbf7e50440c2f7e3639861247236.jpg);
+}
+.timeline section .ie4{
+    background-image: url(https://i.pinimg.com/550x/eb/37/74/eb37749a1fc5167cad49316be6c39bc1.jpg);
+}
+.timeline section .ie5{
+    background-image: url(https://www.motorcyclespecs.co.za/Gallery%20%20A/Yamaha%20DT125R%2000%20%201.jpg);
+}
+.timeline section .ie6{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_827983-MCO70564106979_072023-O.webp);
+}
+
+.timeline section .etapa{
+    width: 35vw;
+}
+
+.timeline section .etapa h2{
+    margin: 0;
+    font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.timeline section .etapa p{
+    margin: 0;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.facetas{
+    margin: 0 auto;
+    width: 70vw;
+    max-width: 100rem;
+}
+
+.facetas section{
+    display: flex;
+    justify-content: space-between;
+    min-height: 30rem;
+    align-items: center;
+}
+.facetas section div{
+    width: 35vw;
+}
+
+.facetas section h2{
+    margin: 0;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.facetas section p{
+    margin: 0;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.facetas section img{
+    max-width: 30rem;
+    border-radius: 3rem;
+}
+
+footer{
+    width: 70vw;
+    margin: 3rem auto 10rem auto;
+}
+footer p{
+    margin: 0;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
