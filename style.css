@@ -149,3 +149,15 @@ footer p{
     font-size: 1.6rem;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+.fade-in-element {
+opacity: 0; /* Empezamos con opacidad 0 para ocultar el elemento */
+visibility: hidden; /* Y también ocultamos el elemento */
+transition: opacity 0.5s ease-in; /* Agregamos una transición suave de 0.5 segundos */
+}
+  
+/* Cuando el elemento esté en el viewport y tenga la clase "visible", mostramos el elemento */
+.fade-in-element.visible {
+opacity: 1;
+visibility: visible;
+}
